@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+}
+
+.left-arrow {
+    float: left;
+    margin: 20% 0 0 0;
+}
+
+.right-arrow {
+    float: left;
+    margin: 20% 0 0 0;
+}
+
+.central-slide {
+    float: left;
+    height: calc(100vh - 150px);
+    text-align: center;
+}
+.central-slide img {
+  height: calc(100vh - 180px);
+}
+
+.preview-slides {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.preview {
+  height: 113px;
+  outline: 1px solid #cccccc;
+}
+
+.preview-active {
+  outline: 1px solid black;
+}
+
+.preview:hover {
+  cursor: pointer;
+  outline: 1px solid black;
+}
